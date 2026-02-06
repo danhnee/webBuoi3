@@ -1,0 +1,10 @@
+@model WebAspNet.ViewModels.SanPhamViewModel
+
+<h2>@Model.TenSp</h2>
+
+<p><strong>Giá:</strong> @Model.GiaTien.ToString("N0") VNĐ</p>
+<p><strong>Anh Mô tả:</strong></p>
+<img src="@Model.AnhMoTa"
+     alt="@Model.TenSp"
+     style="width:300px;border-radius:15px;" />
+
